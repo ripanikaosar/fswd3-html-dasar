@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran SIB 2023</title>
+</head>
+<body>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Form Pendaftaran SIB 2023</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama lengkap" />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="text" name="Email" placeholder="Masukan Email" />
+        </p>
+        <p>
+            <label>No.Hp:</label>
+            <input type="text" name="No.HP" placeholder="Masukan No.HP" />
+        </p>
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Jurusan:</label>
+            <select name="Jurusan">
+                <option value="islam">Teknik Informatika</option>
+                <option value="kristen">Sistem Informasi</option>
+                <option value="hindu">Desain Komunikasi Visual</option>
+                <option value="budha">Management informatika</option>
+            </select>
+        </p>
+        <p>
+            <label>Alamat:</label>
+            <textarea name="Alamat"></textarea>
+        </p>
+        <form method="post" action="proses.php" enctype="multipart/form-data">
+            Foto : <input type="file" name="berkas"/>
+            <input type="submit" name="Tombol" value="Simpan">
+        </form>
+    </form>
+</body>
+</html>
