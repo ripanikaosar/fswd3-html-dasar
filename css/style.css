@@ -11,25 +11,25 @@ section{
     border-radius: 20px;
 }
 section.b1{
-    color: rgb(221, 211, 70);
+    color: rgb(30, 33, 219);
 }
 section.b2{
     color: rgb(75, 221, 99);
 }
 section.b3{
-    color: rgb(42, 8, 95);
+    color: rgb(223, 12, 12);
 }
 .b1{
-    background-color: rgb(48, 63, 57);
-    border: 0.5ch solid rgb(235, 36, 36);
+    background-color: rgb(51, 155, 158);
+    border: 0.5ch solid rgb(232, 235, 36);
 }
 .b2{
-    background-color: rgb(37, 26, 34);
-    border: 0.5ch solid rgb(156, 133, 149);
+    background-color: rgb(129, 20, 100);
+    border: 0.5ch solid rgb(202, 134, 182);
 }
 .b3{
     background-color: rgb(219, 122, 32);
-    border: 0.5ch solid rgb(66, 71, 97);
+    border: 0.5ch solid rgb(65, 80, 9);
 }
 img{
     border-top-right-radius: 17px;
