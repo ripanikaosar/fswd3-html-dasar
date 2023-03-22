@@ -1,0 +1,65 @@
+.sudah{
+    text-decoration: line-through;
+}
+
+body{
+    height: 100%;
+    background-color: #066e75;
+    box-sizing: border-box;
+}
+
+h2{
+    color: #08093a;
+    font-size: 50px;
+    align-items: center;
+    font-family: 'Hind', sans-serif;
+}
+
+.container, #myDIV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.add{
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 7px;
+    width: 60px;
+    background-color: #02083b;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Hind', sans-serif;
+    padding: 10px;
+}
+
+#new_text{
+    background: #fcfafa ;
+    outline: none;
+    border: none;
+    color: #110101;
+    font-size: 1.4rem;
+    width: 245px;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type:none;
+    font-size: 1.4rem;
+    font-family: 'Hind', sans-serif;
+    background: #fff ;
+    margin-block: 30px;
+
+    
+}
